@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/springboot-01/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-01-quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-restful-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/swaggerpractice/pom.xml" />
+        <option value="$PROJECT_DIR$/shirojwtpractive/pom.xml" />
       </list>
     </option>
   </component>

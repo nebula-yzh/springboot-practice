@@ -1,10 +1,10 @@
 package com.spring.springboot01quickstart.controller;
 
+import com.spring.springboot01quickstart.bean.Person;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author ZH.Y
@@ -12,11 +12,26 @@ import org.springframework.web.bind.annotation.RestController;
  * 注解@RestController 是将两个注解合在一起
  */
 //@ResponseBody
-//@Controller
-@RestController
+@Controller
+//@RestController
 public class HelloController {
 
-    @RequestMapping("/home.html")
-    public void home() {
+    @Autowired
+    Person person;
+
+    @GetMapping(value = {"/","/home"})
+    public String homePage(){
+        return "home";
     }
+
+    @ResponseBody
+    @RequestMapping("/person")
+    public Person person(@RequestParam("name") String name,@RequestParam("weight") Integer weight ) {
+        System.out.println(name+weight);
+        return person;
+    }
+
+
+
+
 }

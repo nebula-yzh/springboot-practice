@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/shirojwtpractive/shirojwtpractive.iml" filepath="$PROJECT_DIR$/shirojwtpractive/shirojwtpractive.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-01/springboot-01.iml" filepath="$PROJECT_DIR$/springboot-01/springboot-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-01-quickstart/springboot-01-quickstart.iml" filepath="$PROJECT_DIR$/springboot-01-quickstart/springboot-01-quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-practice.iml" filepath="$PROJECT_DIR$/springboot-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-restful-crud/springboot-restful-crud.iml" filepath="$PROJECT_DIR$/springboot-restful-crud/springboot-restful-crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swaggerpractice/swaggerpractice.iml" filepath="$PROJECT_DIR$/swaggerpractice/swaggerpractice.iml" />
     </modules>
   </component>
 </project>

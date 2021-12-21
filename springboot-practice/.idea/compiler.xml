@@ -7,21 +7,27 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-01-quickstart" />
-        <module name="springboot-01" />
         <module name="springboot-restful-crud" />
+        <module name="shirojwtpractive" />
+        <module name="springboot-01" />
+        <module name="swaggerpractice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="shirojwtpractive" target="1.8" />
       <module name="springboot-01" target="8" />
       <module name="springboot-01-quickstart" target="1.8" />
       <module name="springboot-restful-crud" target="1.8" />
+      <module name="swaggerpractice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shirojwtpractive" options="-parameters" />
       <module name="springboot-01" options="-parameters" />
       <module name="springboot-01-quickstart" options="-parameters" />
       <module name="springboot-restful-crud" options="-parameters" />
+      <module name="swaggerpractice" options="-parameters" />
     </option>
   </component>
 </project>
